@@ -83,4 +83,4 @@ paint_circles(3, 107, svg_document, shape_builder)
 print(svg_document.getXML())
 
 # Speichern der Vektorgrafik als Datei
-svg_document.save("generated_graphic.svg")
+svg_document.save("chipchugan_raw.svg")
