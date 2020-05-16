@@ -77,7 +77,7 @@ svg_document = pysvg.structure.Svg()
 shape_builder = pysvg.builders.ShapeBuilder()
 
 # Aufruf der Funktion zum Zeichnen der Kreise
-paint_circles(3, 108, svg_document, shape_builder)
+paint_circles(3, 107, svg_document, shape_builder)
 
 # Ausgabe der XML der Vektorgrafik
 print(svg_document.getXML())
